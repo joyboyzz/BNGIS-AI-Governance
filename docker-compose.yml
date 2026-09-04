@@ -1,0 +1,12 @@
+services:
+  bngis:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      # persist the transparency chain across restarts
+      - chain-data:/app/app/data
+    restart: unless-stopped
+
+volumes:
+  chain-data:

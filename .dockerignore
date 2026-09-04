@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+node_modules/
+
+.env
+.env.*
+
+.DS_Store
+*.log
+
+# runtime app data (transparency chain) — not source code
+app/data/chain.json
+
+# CI/CD & editors
+.github/
+.git/
+.vscode/
+.idea/

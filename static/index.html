@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BNGIS — Bharath Neuro-Governance Intelligence System</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇮🇳</text></svg>" />
+</head>
+<body>
+  <div class="app">
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo">🇮🇳</div>
+        <div>
+          <div class="brand-name">BNGIS</div>
+          <div class="brand-sub" data-i18n="brandSub">Neuro-Governance AI</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a class="nav-item active" href="#/dashboard" data-route="dashboard">
+          <span class="ni">📊</span><span data-i18n="navDash">Dashboard</span>
+        </a>
+        <a class="nav-item" href="#/schemes" data-route="schemes">
+          <span class="ni">🎯</span><span data-i18n="navSchemes">Scheme Matching</span>
+        </a>
+        <a class="nav-item" href="#/resources" data-route="resources">
+          <span class="ni">🗺️</span><span data-i18n="navResources">Resource Finder</span>
+        </a>
+        <a class="nav-item" href="#/disaster" data-route="disaster">
+          <span class="ni">🌊</span><span data-i18n="navDisaster">Disaster Response</span>
+        </a>
+        <a class="nav-item" href="#/voice" data-route="voice">
+          <span class="ni">🗣️</span><span data-i18n="navVoice">Citizen Voice AI</span>
+        </a>
+        <a class="nav-item" href="#/corruption" data-route="corruption">
+          <span class="ni">🛡️</span><span data-i18n="navCorruption">Corruption Shield</span>
+        </a>
+        <a class="nav-item" href="#/chain" data-route="chain">
+          <span class="ni">⛓️</span><span data-i18n="navChain">Transparency Chain</span>
+        </a>
+        <a class="nav-item" href="#/about" data-route="about">
+          <span class="ni">ℹ️</span><span data-i18n="navAbout">About Project</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-foot">
+        <div class="pill-live"><span class="dot"></span> AI Core Online</div>
+        <div class="foot-text">Zero-cost • Open Source<br/>Built for Bharat ❤️</div>
+      </div>
+    </aside>
+
+    <!-- ================= MAIN ================= -->
+    <main class="main">
+      <header class="topbar">
+        <button class="hamburger" id="hamburger" aria-label="menu">☰</button>
+        <div class="topbar-title" id="page-title">Dashboard</div>
+        <div class="topbar-actions">
+          <button class="lang-btn" id="lang-btn">తెలుగు</button>
+        </div>
+      </header>
+      <div id="view" class="view"><!-- pages render here --></div>
+    </main>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
