@@ -123,9 +123,10 @@ bngis/
 └── run.sh
 ```
 
-## 📚 Docs
+## 📚 Docs & submission kit
+- **📊 Presentation:** `docs/BNGIS_Presentation.pptx` (15 slides, dark theme — regenerate with `python3 scripts/make_ppt.py`)
+- **🎬 Demo video script:** `docs/VIDEO_SCRIPT.md` (6-minute timed walkthrough + 2-minute short cut)
 - **College report:** `docs/PROJECT_REPORT.md` (abstract, architecture, algorithms with formulas, testing, future scope, references)
-- Full specification: `uploads/BNGIS.txt`
 
 ## ⚠️ Honest demo notes
 - Transactions & beneficiaries are **synthetic, seeded** (deterministic) — fraud patterns deliberately injected so the detectors have something to find.
