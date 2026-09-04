@@ -125,7 +125,8 @@ bngis/
 
 ## 📚 Docs & submission kit
 - **📊 Presentation:** `docs/BNGIS_Presentation.pptx` (15 slides, dark theme — regenerate with `python3 scripts/make_ppt.py`)
-- **🎬 Demo video script:** `docs/VIDEO_SCRIPT.md` (6-minute timed walkthrough + 2-minute short cut)
+- **🎬 Demo video (narrated):** `docs/demo_video.mp4` — 3½-minute narrated walkthrough with real engine data (regenerate: `python3 video_work/build_video.py`)
+- **🎬 Video script (if you want to record your own voice):** `docs/VIDEO_SCRIPT.md` (6-minute timed walkthrough + 2-minute short cut)
 - **College report:** `docs/PROJECT_REPORT.md` (abstract, architecture, algorithms with formulas, testing, future scope, references)
 
 ## ⚠️ Honest demo notes
