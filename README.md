@@ -8,6 +8,7 @@
 
 </div>
 
+[![CI](https://github.com/joyboyzz/BNGIS-AI-Governance/actions/workflows/ci.yml/badge.svg)](https://github.com/joyboyzz/BNGIS-AI-Governance/actions/workflows/ci.yml)
 ![Tests](https://img.shields.io/badge/tests-25%2F25%20passing-2eb872)
 ![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-3776ab)
 ![License](https://img.shields.io/badge/license-MIT-orange)
